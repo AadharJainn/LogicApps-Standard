@@ -10,15 +10,8 @@ variables:
   resourceGroupLocation: 'westus'
   resourceGroupName: 'rg-wus-$(projectName)-$(suffix)'
 
-  # Storage
-  storageName: 'sa$(projectName)$(suffix)'
-  appServicePlanName: 'asp$(projectName)$(suffix)'
-
   #  Logic App
   logicAppName: 'la-wus-$(projectName)-$(suffix)'
-
-  # API Connections
-  officeConnectionName: 'la-wus-$(projectName)-connection-office365'
 
   # Project artifacts
   logicAppCIArtifactName: 'logicapp_publish_artifact'
